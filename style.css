@@ -1,7 +1,12 @@
 :root {
     /* couleur */
-    --background : #1070F6
-    --text : #ffffff
-
-
+    --primaire: #10f696;
+    --primaire-hover: #10cd7e;
+    --fond : #1070F6;
+    --couleur-text: #ffffff;
+    --suppression: #ff4444;
+    --text-secondaire: #F61070;
+    --border: #ddd;
+    --font-tache: #fff;
+    --suppression: #ff4444;
 }
