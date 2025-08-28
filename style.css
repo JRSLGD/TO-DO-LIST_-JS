@@ -45,3 +45,8 @@ body {
     flex-direction: column;
     gap: 20px;
 }
+.container h1 {
+    font-size: var(--titre);
+    font-weight: 600;
+    
+}
