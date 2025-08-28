@@ -48,5 +48,13 @@ body {
 .container h1 {
     font-size: var(--titre);
     font-weight: 600;
-    color: var(--text-secondaire)
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: var(--text);
+    background-color: var(--font-tache);
+    color: black;
 }
