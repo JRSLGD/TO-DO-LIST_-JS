@@ -17,8 +17,8 @@ function newTask(){
         taskList.classList.add('active-list')
     }
 }
-const removeBtn = addEventListener('Click', removeTask);
 function removeTask(){
+    const deleteBtn = document;
     const li = this.parentElement; li.remove();
      
     if(taskList.children.length === 0){
