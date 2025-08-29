@@ -18,9 +18,7 @@ function newTask(){
     }
 }
 function removeTask(){
-    const deleteBtn = document;
-    const li = this.parentElement; li.remove();
-     
+    
     if(taskList.children.length === 0){
         taskList.chassList.remove('active-list');
     }
