@@ -11,4 +11,7 @@ function newTask(){
 
         taskList.classList.add('active-list')
     }
+    else {
+        
+    }
 }
