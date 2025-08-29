@@ -18,7 +18,7 @@ function newTask(){
     }
 }
 function removeTask(){
-    const taskList = document.getElementById("taskList");
+    const taskList = document.getElementById("listeTaches");
     if (taskList.lastChild){
         taskList.removeChild(taskList.lastChild);
     }
