@@ -70,3 +70,23 @@ button {
     font-weight: bold;
     margin: 30px 10px 0 10px;
 }
+ul {
+    margin: 20px;
+    border-radius: 8px;
+    list-style: none;
+    text-align: center;
+    max-height: 500px;
+    overflow: auto;
+    padding-right: 10px;
+    border : none;
+}
+ul.active-list {
+    border: 1px solid var(--border);
+}
+li {
+    padding: 15px 0;
+    border-bottom: 1px solid var(--border) ;
+}
+li :last-child {
+    border-bottom: none ;
+}

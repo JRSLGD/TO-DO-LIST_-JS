@@ -8,5 +8,7 @@ function newTask(){
         li.textContent = task;
         taskList.appendChild(li);
         taskInput.value = '';
+
+        ul.classList.add('active-list')
     }
 }
