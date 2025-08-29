@@ -9,6 +9,6 @@ function newTask(){
         taskList.appendChild(li);
         taskInput.value = '';
 
-        ul.classList.add('active-list')
+        taskList.classList.add('active-list')
     }
 }
