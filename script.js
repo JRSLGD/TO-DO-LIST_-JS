@@ -18,12 +18,12 @@ function newTask(){
     }
 }
 function removeTask(){
-    const taskList = document.getElementById('taskList');
+    const taskList = document.getElementById("taskList");
     if (taskList.lastChild){
         taskList.removeChild(taskList.lastChild);
     }
     
-    if(taskList.children.length === 0){
-        taskList.chassList.remove('active-list');
+    if (taskList.children.length === 0){
+        taskList.classList.remove('active-list');
     }
 }
