@@ -3,6 +3,11 @@ function newTask(){
     const taskList = document.getElementById("listeTaches");
     const task = taskInput.value.trim();
 
+    if(!taskInput.value) {
+        alert("Veillez entrer une tâche.");
+        return;
+    }
+
     if(task !== '') {
         li = document.createElement('li');
         li.textContent = task;
@@ -10,8 +15,5 @@ function newTask(){
         taskInput.value = '';
 
         taskList.classList.add('active-list')
-    }
-    else {
-        
     }
 }
